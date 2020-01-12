@@ -5,3 +5,6 @@ drive link for model segmentation -- https://drive.google.com/open?id=11mMQHTvbE
 
 ### Model demonstration
 ![](https://github.com/Naman2017/mercedez-benz-digital-challenge/blob/master/gifs/a.gif)
+
+### Segmentation Result
+![](https://github.com/Naman2017/mercedez-benz-digital-challenge/blob/master/gifs/b.gif)
