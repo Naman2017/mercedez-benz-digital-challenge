@@ -1,0 +1,79 @@
+.hed{
+  display:flex;
+  align-items: center;
+  background:#000;
+  color:#fff;
+  justify-content: center;
+}
+
+#hd1{
+  flex-grow:25;
+  
+}
+
+
+
+#my_camera{
+    padding-top:0.7%;
+  padding-left:0.7%;
+}
+#snap{
+  font-size:200%;
+  color: #f1f1f1;
+  border-radius: 10%;
+  background-color: #130ADF;
+}
+.controller{
+  display:absolute;
+}
+#setup{
+  width:50%;
+  justify-content: center;
+}
+#my_camera{
+  
+  width:10px;
+}
+
+#app{
+  display:flex;
+  align-items: center;
+}
+#comm{
+  width:50%;
+}
+#cbox{
+  display: inline-block;
+  background-color: lightgrey;
+  padding:0.4%;
+  text-align:center;
+  font-size: 2.5em;
+}
+
+body{
+ 
+  background-position: top left;
+  background-attachment: relative;
+  background-color: #000;
+  background-repeat: repeat; 
+  background-size: 40% 40%;
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+ {box-sizing: border-box;}
+
+ 
+  #app{
+    flex-direction:column;
+  }
+  #comm{
+    width:100%;
+    margin:5%;
+  }
+  #setup{
+    width:100%;
+  }
+
+#canvas{
+  display:none;
+}

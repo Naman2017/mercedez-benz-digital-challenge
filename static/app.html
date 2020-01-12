@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>narcos - webapp</title>
+  <link rel="stylesheet" href="{{url_for('static',filename='app_style.css')}}">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="hed">
+<div id='hd1'><center><h1>Traffic Predictor for autonomous cars</h1></center></div>
+
+  </div>
+
+<div id="app">
+<div id="setup">
+ <center><div id="my_camera" align='center'></div></center>
+ 
+</div>
+<div id="comm">
+  <center><div id="cbox">
+ Prediction
+</div></center>
+  <br><br>
+   <div class="controller" align="center">
+   <button id="snap">Capture</button>
+</div>
+  </div>
+  </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.25/webcam.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script  src="{{url_for('static',filename='app_script.js')}}"></script>
+
+</body>
+</html>
