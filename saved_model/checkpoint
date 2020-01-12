@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/laugh-till-u-die/Desktop/run_folder/saved_model/var.ckpt"
+all_model_checkpoint_paths: "/home/laugh-till-u-die/Desktop/run_folder/saved_model/var.ckpt"
